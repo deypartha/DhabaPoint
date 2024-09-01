@@ -62,12 +62,12 @@
             <h1>Login</h1>
             <br>
             <div class="form">
-                <form action="get">
+                <form action="/submit" method="post">
                     <label for="user">Username: </label>
-                    <input type="username" name="" id="user" placeholder="Enter your name">
+                    <input type="username" name="email" id="user" type="email" placeholder="Enter your name" required>
                     <br><br>
                     <label for="pass">Password: </label>
-                    <input type="password" name="" id="pass" maxlength="13" placeholder="Enter password">
+                    <input type="password" name="" id="pass" minlength="8" placeholder="Enter password">
                     <br><br>
                     <div class="remember">
                         <div>
@@ -80,7 +80,7 @@
                     </div>
                     <br>
                    
-                        <button class="btn btn-outline-warning fs-5" type="button">Login</button>
+                        <button class="btn btn-outline-warning fs-5" type="submit">Submit</button>
                     
                     <br><br>
                     <div class="acc">
