@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image-bac{
+    position: static;
+}
+ .header{
+    width: 100%;
+    height: 80px;
+ }
+ .navbar{
+    position: fixed;
+ }
+.ddd1{
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+}
+.text{
+    color: #212121;
+}
+.menu{
+    color: #212121;
+}
+#drop{
+    height: 30px;
+    width: 50px;
+}
+.buttonfas div{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background: #fff;
+    text-align: center;
+}
+.buttonfas a{
+    text-decoration: none;
+    color: black;
+}
+li.nav-item.dropdown{
+    list-style-type: none;
+}
+a#nav-link{
+    text-decoration: none;
+    color: #212121;
+}
+.top-image{
+    position: relative;
+    text-align: center;
+}
+.top-center{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    /* transform: translate(0%, -50%); */
+    background-color: rgb(30, 30, 33, 0.7);
+}
+.top-center-two{
+    position: absolute;
+    top: 290px;
+    left: 200px;
+    background-color: rgb(30, 30, 33, 0.7);
+}
+.top-center-search{
+    position: absolute;
+    top: 350px;
+    left: 200px;
+}
+.top-center-search{
+    height: 50px;
+    width: 400px;
+    border-radius: 50px;
+    background-color: #fff;
+    border: 2px solid red;
+    text-align: left;
+}
+.top-center-search input{
+    height: 40px;
+    border-radius: 50px;
+    /* background-color: #23d5ab; */
+    width: 300px;
+    border: none;
+    outline: none;
+    font-size: 30px;
+  
+    margin-top: 2px;
+}
+#row-two{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 19px;
+}
+div#row-two.row.text-center{
+    background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
+    background-size: 300% 300%;
+    animation: color 8s ease-in-out infinite;
+}
+/* @keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+} */
+
+
+.btnRead{
+    border: 1px solid red;
+    color: red;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+}
+.btnRead:hover{
+    color: white;
+    border: 1px solid rgb(250, 6, 6);
+    background-color: red;
+}
+.auto-type{
+    color: rgb(40, 212, 160);
+}
+
+.container{
+    text-align: center;
+}
+.cheff-h1{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #5b5a5a;
+}
+.cheff-h3{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #969393;
+}
+.cheff-p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 2.5;
+    color: #9f9595;
+}
+.cheff-img{
+    margin-left: 40px;
+}
+ #top-image2{
+    position: relative;
+    text-align: center;
+}
+#top-center2{
+    position: absolute;
+    top: 300px;
+    left: 550px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid brown;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(95, 78, 78);
+}
+input#name{
+    border-radius: 10px;
+} 
+.last{
+    height: 250px;
+    background-color: #212121;
+    color: #fff;
+}
+.last_row{
+    padding-top: 50px;
+}
+.copy{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.last_row{
+    display: grid;
+    grid-template-areas: "element0 element1 element2 element3"
+                         "copy copy copy copy";
+    height: 20vh;
+}
+.last_row div{
+    background-color: #212121;
+}
+.element0{
+    grid-area: element0;
+}
+.element1{
+    grid-area: element1;
+}
+.element2{
+    grid-area: element2;
+}
+.element3{
+    grid-area: element3;
+}
+.copy{
+    grid-area: copy;
+}
+@media(max-width: 600px){
+    .last_row{
+        grid-template-areas: "element0 element1 element2 element3"
+                         "copy copy copy copy";
+    }
+}
+@media (min-width: 600px) and (max-width: 1000px) {
+    .cont{
+        grid-template-areas: "element0 element1 element2 element3"
+                         "copy copy copy copy";
+    }
+}
+.und{
+    text-decoration: underline 3px orangered;
+    text-underline-offset: 10px;
+}
