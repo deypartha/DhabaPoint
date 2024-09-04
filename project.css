@@ -97,20 +97,8 @@ a#nav-link{
 div#row-two.row.text-center{
     background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
     background-size: 300% 300%;
-    animation: color 8s ease-in-out infinite;
+    animation: color;
 }
-/* @keyframes color{
-    0%{
-        background-position: 0 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0 50%;
-    }
-} */
-
 
 .btnRead{
     border: 1px solid red;
