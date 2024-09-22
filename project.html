@@ -82,7 +82,11 @@
 </nav>
 </div>
     <div class="top-image">
-      <img src="https://png.pngtree.com/background/20230615/original/pngtree-the-fast-food-picture-image_3545034.jpg" alt="" class="image-bac" height="450px" width="100%">
+      <div class="image-bac">
+        <video autoplay loop muted plays-inline>
+          <source src="demoPic.mp4" type="video/mp4">
+        </video>
+      </div>
       <div class="top-center">
           <h1 class="heading1" id="h1">Welcome To <br><span class="auto-type"></span></h1>
       </div>
@@ -123,7 +127,8 @@
       <img src="food7.jpg" alt="" height="150" width="150px" style="border-radius: 10px; padding-bottom: 5px;">
       <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 20px; text-align: center;">Fresh And Organic</h1>
       <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-      <button class="btnRead" id="myButton" style="align-content: center;">Read More</button>
+      <button class="btnRead" id="myButton" style="align-content: center;" onclick="hideshow()">Read More</button>
+      <div id="cout"></div>
   </div>
   <div class="col-lg-2 col-md-4 col-sm-12 divfac" onmouseover="changeColor(this)" onmouseout="removeColor(this)" style="border: 1px solid silver; padding: 20px; margin: 20px; display: flex; flex-direction: column; align-items: center;">
       <img src="food3.jpg" alt="" height="150" width="150px" style="border-radius: 10px; padding-bottom: 5px;">
@@ -204,7 +209,7 @@
       <br>
       <p class="fs-5"> Welcome to DhabaPoint. You can spent your precious time to your partner with enjoying food and as well as your close friend also. </p>
       <br>
-      <button class="btn btn-outline-success" id="btn_view" onclick="view_more()">View More</button>
+      <button class="btn btn-outline-success" id="btn_view" onmouseover="view_more()" onmouseout="remove_this()">View More</button>
       <p class="para_btn fs-5"></p>
     </div> 
     
