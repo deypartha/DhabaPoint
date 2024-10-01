@@ -105,6 +105,47 @@ a#nav-link{
   
     margin-top: 2px;
 }
+.box1{
+    float: left;
+    width: 1000px;
+}
+.box2{
+    position: relative;
+    top: -50px;
+    right: 150px;
+    float: right;
+    background-color: #fff;
+    /* padding: 50px; */
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+    backdrop-filter: blur(20px);
+}
+.inside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f48e21;
+}
+.inside h3{
+    margin-left: 10px;
+    align-items: center;
+    padding-top: 5px;
+}
+.box2 p{
+    font-size: 20px;
+    padding: 10px;
+}
+.box2 button{
+    font-size: 20px;
+}
+.box2 a{
+
+    font-size: 20px;
+    color: #212121;
+}
 #row-two{
     height: 200px;
     display: flex;
