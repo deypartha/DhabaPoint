@@ -111,23 +111,25 @@ a#nav-link{
 }
 .box2{
     position: relative;
-    top: -50px;
-    right: 150px;
+    top: -150px;
+    right: 10%;
     float: right;
-    background-color: #fff;
-    /* padding: 50px; */
     align-items: center;
     text-align: center;
     border-radius: 10px;
     height: 300px;
     width: 400px;
-    backdrop-filter: blur(20px);
+    border: 1px solid gray;
+    color: #fff;
+    background: rgba(194, 167, 167, 0.5);
+    z-index: 1;
 }
 .inside{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f48e21;
+    border-bottom: 1px #5b4f4f solid;
+    background: rgba(81, 192, 2, 0.5)
 }
 .inside h3{
     margin-left: 10px;
@@ -182,9 +184,10 @@ div#row-two.row.text-center{
                     yellow,
                     orange,
                     red);
-            -webkit-background-clip: text;
-            color: transparent;
-            font-weight: bolder;
+    background-clip: 0;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bolder;
 }
 
 .container{
@@ -292,4 +295,30 @@ input#name{
     /* height: 300px; */
     /* top: 0; */
     z-index: -1;
+}
+table, th, td{
+    border: 2px solid black;
+}
+.pic_of_out{
+    position: relative;
+}
+.text_over{
+    position: absolute;
+    width: 100%;
+    top: 100px;
+}
+#menus {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+.col-lg-6 {
+    display: flex;
+    justify-content: center;
+}
+#btnn:hover{
+    background-color: #212121;
+    color: red;
 }

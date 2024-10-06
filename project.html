@@ -19,6 +19,8 @@
       .text:hover{
         text-decoration: underline 2px rgb(91, 223, 192);
         text-underline-offset: 10px;
+        background-color: brown;
+        color: #fff;
       }
       .menu{
         color: #212121;
@@ -42,7 +44,7 @@
 <div class="collapse navbar-collapse" id="btn">
     <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-            <a href="#" class="nav-link mx-3 fs-5 text">Home</a>
+            <a href="#" class="nav-link mx-3 fs-5 text" style="background-color: brown; color: #fff;" active>Home</a>
         </li>
         <li class="nav-item">
             <a href="#" class="nav-link mx-3 fs-5 text">Services</a>
@@ -51,7 +53,7 @@
             <a href="#" class="nav-link mx-3 fs-5 text">Menu</a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link mx-3 fs-5 text">About Us</a>
+            <a href="p.about.html" class="nav-link mx-3 fs-5 text">About Us</a>
         </li>
         <li class="nav-item">
           <a href="login.html" class="nav-link mx-3 fs-5 text"><i class="bx bx-user-circle icon"></i></a>
@@ -204,8 +206,68 @@
     </div>
     <br><br>
     <div class="col-lg-12 col-md-12 col-sm-12" id="top-image2">
-      <h1>𝓞𝓾𝓻 𝓞𝓾𝓽𝓭𝓸𝓸𝓻 𝓢𝓲𝓽𝓽𝓲𝓷𝓰 𝓐𝓻𝓻𝓪𝓷𝓰𝓮𝓶𝓮𝓷𝓽𝓼</h1> <br>
-      <img class="food6" src="res+tables.jpg" alt="" height="700px" width="100%">
+      
+      
+      <div class="pic_of_out">
+        <img class="food6" src="inside.jpg" style="filter: blur(2px);" alt="" height="700px" width="100%">
+      </div>
+      <div class="text_over">
+        <h1 style="color: #fff;">𝕺𝖚𝖗 𝕸𝖊𝖓𝖚</h1><br><br>
+        <div class="row" id="menus">
+          <div class="col-lg-6" id="cols1">
+            <table style="width: 60%; border: double;">
+                <tr>
+                    <th style="border: double; padding: 8px;">Item</th>
+                    <th style="border: double; padding: 8px;">Price</th>
+                </tr>
+                <tr>
+                    <td style="border: double; padding: 8px;">Aloo Posto</td>
+                    <td style="border: double; padding: 8px;">50 $</td>
+                </tr>
+                <tr>
+                    <td style="border: double; padding: 8px;">Chicken 65</td>
+                    <td style="border: double; padding: 8px;">120 $</td>
+                </tr>
+                <tr>
+                    <td style="border: double; padding: 8px;">Navaratna</td>
+                    <td style="border: double; padding: 8px;">90 $</td>
+                </tr>
+                <tr>
+                    <td style="border: double; padding: 8px;">Fish Curry</td>
+                    <td style="border: double; padding: 8px;">100 $</td>
+                </tr>
+            </table>
+          </div>
+          
+          <div class="col-lg-6" id="cols2">
+            <table style="width: 60%; border: double;">
+              <tr>
+                  <th style="border: double; padding: 8px;">Item</th>
+                  <th style="border: double; padding: 8px;">Price</th>
+              </tr>
+              <tr>
+                  <td style="border: double; padding: 8px;">Aloo Posto</td>
+                  <td style="border: double; padding: 8px;">50 $</td>
+              </tr>
+              <tr>
+                  <td style="border: double; padding: 8px;">Chicken 65</td>
+                  <td style="border: double; padding: 8px;">120 $</td>
+              </tr>
+              <tr>
+                  <td style="border: double; padding: 8px;">Navaratna</td>
+                  <td style="border: double; padding: 8px;">90 $</td>
+              </tr>
+              <tr>
+                  <td style="border: double; padding: 8px;">Fish Curry</td>
+                  <td style="border: double; padding: 8px;">100 $</td>
+              </tr>
+          </table>
+          </div>
+        </div>
+        <br><br>
+        <button id="btnn" class="btn btn-danger" style="width: auto; height: 70px; border-radius: 20px; font-size: 20px;">View Full Menu</button>
+      </div>
+
       <br>
       <p class="fs-5"> Welcome to DhabaPoint. You can spent your precious time to your partner with enjoying food and as well as your close friend also. </p>
       <br>
