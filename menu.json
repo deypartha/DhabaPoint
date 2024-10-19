@@ -1,0 +1,25 @@
+{
+    "breakfast": [
+        {   "id":1,
+            "imageLink": "../image/breakfast/Aloo Pratha.jpg",
+            "name": "Aloo Pratha",
+            "price": 5.99,
+            "rating": 4.7,
+            "discount": 1.00
+        },
+        {
+            "imageLink": "../image/breakfast/Dal Pratha.jpg",
+            "name": "Dal Pratha",
+            "price": 6.99,
+            "rating": 4.5,
+            "discount": 0.50
+        },
+        {
+            "imageLink": "../image/breakfast/Puri.jpg",
+            "name": "Puri",
+            "price": 5.49,
+            "rating": 4.6,
+            "discount": 0.75
+        }
+    ]
+}

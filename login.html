@@ -26,8 +26,8 @@
             border: 1px solid #fff;
             padding: 50px;
             height: 450px;
-            width: 400px;
-            font-size: 17px;
+            width: 450px;
+            font-size: 20px;
             border-radius: 20px;
             text-align: center;
             color: #fff;
@@ -44,16 +44,42 @@
         }
         
         #user{
-            height: 25px;
-            width: auto;
-            font-size: 15px;
+            height: 40px;
+            width: 200px;
+            font-size: 17px;
+            background-color: rgba(255, 255, 255, 0.162);
+            text-decoration: none;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            color: #fff;
+        }
+        #user::placeholder{
+            color: #fff;
         }
         #pass{
-            height: 25px;
-            width: auto;
-            font-size: 15px;
+            height: 40px;
+            width: 200px;
+            font-size: 17px;
+            background-color: rgba(255, 255, 255, 0.162);
+            text-decoration: none;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            color: #fff;
         }
-        
+        #pass::placeholder{
+            color: #fff;
+        }   
+        .btn{
+            background-color: rgb(68, 133, 2);
+            color: #fff;
+        }
+        .btn a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .acc a{
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -62,7 +88,7 @@
             <h1>Login</h1>
             <br>
             <div class="form">
-                <form onsubmit="addDetails()">
+                <form onsubmit="checkLoginDetails()">
                     <label for="user">Username: </label>
                     <input type="username" name="email" id="user" type="email" placeholder="Enter your name" required>
                     <br><br>
@@ -80,16 +106,18 @@
                     </div>
                     <br>
                    
-                        <button class="btn btn-outline-warning fs-5" type="submit">Submit</button>
+                        <button class="btn fs-5" type="submit">Submit</button>
                     
                     <br><br>
                     <div class="acc">
-                        <p>Don`t have any account? <a href="">Register Here</a></p>
+                        <p>Don`t have any account? <a href="registration.html">Register Here</a></p>
                     </div>
                 </form>
             </div>
         </div>
     </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="login.js"></script>
+    
 </body>
 </html>
